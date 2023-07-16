@@ -1,0 +1,75 @@
+.navBar {
+  display: flex;
+  width: 1920px;
+  height: 72px;
+  padding: 24px 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 851px;
+}
+
+.left-content {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  background: linear-gradient(122deg, #0096ff 42.14%, #0048ff 96.7%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-dropDown {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.joinNow {
+  display: flex;
+  height: 40px;
+  padding: 10px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 52px;
+  background: linear-gradient(224deg, #0048ff 0%, #0096ff 100%);
+  color: #fff;
+}

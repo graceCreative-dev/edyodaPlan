@@ -1,0 +1,99 @@
+.back-ground {
+    width: 1920px;
+    height: 1008px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background: url(../Assets/back-ground.png), lightgray 50% / cover no-repeat;
+  }
+
+  .main-lockup {
+    display: inline-flex;
+    margin: 72px 0px 228px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  
+  .lockup-text {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 70px */
+    letter-spacing: 1px;
+    gap: 8px;
+  }
+  
+  .rectangle {
+    width: 191px;
+    height: 8px;
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    background: #f00;
+  }
+  
+  .lockup-price {
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px; /* 80px */
+    letter-spacing: -0.64px;
+  }
+
+  .lockup-text p{
+    line-height: 0.5px;
+    margin: 0 7px;
+  }
+  
+  .pointer {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    color: #fff;
+  }
+  
+  .pointer-icon {
+    display: flex;
+    width: 68px;
+    height: 68px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pointer-blue-text {
+    color: #0096ff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 32px */
+    letter-spacing: 0.96px;
+  }
+  
+  .pointer-white-text {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.96px;
+  }
+  
+  .icon-rect {
+    width: 4px;
+    height: 36px;
+    margin: 9.77px 8.43px 8.43px 6.77px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+  }
